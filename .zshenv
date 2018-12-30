@@ -4,9 +4,6 @@ if [ -x /usr/libexec/path_helper ]; then
     eval `/usr/libexec/path_helper -s`
 fi
 
-PATH="$HOME/bin:$PATH"
-PATH="/usr/local/opt/python/libexec/bin:$PATH"
-
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 alias git_dotfile_config='/usr/bin/git --git-dir=/Users/couballj/.dotfile_config/ --work-tree=/Users/couballj'

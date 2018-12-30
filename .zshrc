@@ -1,3 +1,6 @@
+PATH="$HOME/bin:$PATH"
+PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/couballj/.oh-my-zsh
 

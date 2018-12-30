@@ -1,3 +1,6 @@
+
+PATH="$HOME/bin:$PATH"
+PATH="/usr/local/opt/python/libexec/bin:$PATH"
  
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
